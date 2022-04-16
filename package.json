@@ -1,0 +1,28 @@
+{
+  "name": "layout-music-box",
+  "version": "0.1.0",
+  "description": "HTML5/CSS layout with SCSS, HTMLHint, StyleLint, Surge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-gunderin/layout-cognitive-biases.git"
+  },
+  "main": "",
+  "scripts": {
+    "slint": "npx stylelint ./src/styles/*.css",
+    "slint:fix": "npx stylelint ./src/styles/*.css --fix",
+    "hlint": "npx htmlhint ./src/*.html",
+    "deploy": "npx surge ./src/"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.3",
+    "stylelint": "^14.2.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.1.0",
+    "surge": "^0.23.1"
+  },
+  "author": "Andrei Gunderin",
+  "license": "ISC"
+}

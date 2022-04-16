@@ -1,0 +1,8 @@
+/node_modules/
+Makefile
+package-lock.json
+package.json
+.idea
+.DS_Store
+*.log
+.vscode
