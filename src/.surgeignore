@@ -6,4 +6,4 @@ package.json
 .DS_Store
 *.log
 .vscode
-src/scss
+scss
