@@ -5,7 +5,7 @@
 
 Live: [Link on Surge](http://irate-suggestion.surge.sh)
 
-Design: [Link on Figma](https://www.figma.com/file/qV9FZGELdeKMsk63QLiKXY/Hexlet-LayoutDesigner-Project.-Cognitive-Biases?node-id=0%3A1)
+Design: [Link on Figma](https://www.figma.com/file/b6AjhwQsQeSeoIteenOTIp/Hexlet-LayoutDesigner-Project.-Music-Box)
 
 ## Setup
 
