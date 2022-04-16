@@ -1,5 +1,6 @@
 install:
 	npm ci
+	npm run scss
 
 lint:
 	npx stylelint ./src/css/*.css
