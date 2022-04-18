@@ -1,16 +1,16 @@
-@mixin generateWidth($className, $value) {
+@mixin generate-width($className, $value) {
 	.w-#{$className} {
 		width: $value;
 	}
 }
 
-@mixin generateMaxWidth($className, $value) {
+@mixin generate-max-width($className, $value) {
 	.max-w-#{$className} {
 		max-width: $value;
 	}
 }
 
-@mixin generateMargin($side, $className, $value) {
+@mixin generate-margin($side, $className, $value) {
 	.m-#{$className} {
 		margin-#{$side}: $value;
 	}

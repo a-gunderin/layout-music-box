@@ -24,12 +24,12 @@ $paddings: (
 	@if ($key == 'percent') {
 		@each $v in $value {
 			$className: str-slice($v + '', 1, -2) + 'p';
-			@include generateWidth($className, $v);
+			@include generate-width($className, $v);
 		}
 	} @else {
 		@each $v in $value {
 			$className: str-slice($v + '', 1, -3);
-			@include generateWidth($className, $v);
+			@include generate-width($className, $v);
 		}
 	}
 }
@@ -38,17 +38,17 @@ $paddings: (
 	@if ($key == 'percent') {
 		@each $v in $value {
 			$className: str-slice($v + '', 1, -2) + 'p';
-			@include generateMaxWidth($className, $v);
+			@include generate-max-width($className, $v);
 		}
 	} @else {
 		@each $v in $value {
 			$className: str-slice($v + '', 1, -3);
-			@include generateMaxWidth($className, $v);
+			@include generate-max-width($className, $v);
 		}
 	}
 }
 
-@include generateMargin('right', 'r-auto', auto);
+@include generate-margin('right', 'r-auto', auto);
 
 .min-h-100vh {
 	min-height: 100vh;
