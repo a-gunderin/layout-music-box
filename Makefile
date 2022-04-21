@@ -1,5 +1,6 @@
 install:
 	npm ci
+	npm run scss
 	npm run atomizer
 
 lint:

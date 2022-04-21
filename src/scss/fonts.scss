@@ -1,0 +1,23 @@
+/* stylelint-disable */
+$fonts: (
+	roboto-regular: (400, Roboto, "../fonts/Roboto/Roboto-Regular.ttf"),
+	roboto-medium: (500, Roboto, "../fonts/Roboto/Roboto-Medium.ttf"),
+	roboto-bold: (700, Roboto, "../fonts/Roboto/Roboto-Bold.ttf")
+);
+/* stylelint-enable */
+
+@mixin generate-font($font-weight, $font-name, $path-to-font) {
+	@font-face {
+		font-weight: $font-weight;
+		font-family: $font-name;
+		src: url("fonts/#{$path-to-font}");
+	}
+}
+
+@each $font, $font-details in $fonts {
+	$font-weight: nth($font-details, 1);
+	$font-name: nth($font-details, 2);
+	$path: nth($font-details, 3);
+
+	@include generate-font($font-weight, $font-name, $path);
+}
