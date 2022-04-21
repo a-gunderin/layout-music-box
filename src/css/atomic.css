@@ -1,0 +1,111 @@
+.Bd\(0\) {
+  border: 0;
+}
+.Bdrs\(50px\) {
+  border-radius: 50px;
+}
+.Bgi\(banner\) {
+  background-image: "url(../images/banner.png)";
+}
+.Bgc\(\#3c3b3d\) {
+  background-color: #3c3b3d;
+}
+.Bgz\(cv\) {
+  background-size: cover;
+}
+.Bgp\(c\) {
+  background-position: center;
+}
+.Bgr\(nr\) {
+  background-repeat: no-repeat;
+}
+.C\(textColor\) {
+  color: #cacaca;
+}
+.C\(white\) {
+  color: white;
+}
+.C\(white\)\:h:hover {
+  color: white;
+}
+.D\(f\) {
+  display: flex;
+}
+.Ai\(c\) {
+  align-items: center;
+}
+.Ff\(roboto\) {
+  font-family: Roboto, Verdana, sans-serif;
+}
+.Mend\(16px\) {
+  margin-right: 16px;
+}
+.Mend\(24px\) {
+  margin-right: 24px;
+}
+.Mend\(90px\) {
+  margin-right: 90px;
+}
+.Mend\(a\) {
+  margin-right: auto;
+}
+.Mstart\(a\) {
+  margin-left: auto;
+}
+.Maw\(1200px\) {
+  max-width: 1200px;
+}
+.Maw\(24px\) {
+  max-width: 24px;
+}
+.Mih\(100vh\) {
+  min-height: 100vh;
+}
+.O\(0\) {
+  outline: 0;
+}
+.T\(25px\) {
+  top: 25px;
+}
+.End\(0\) {
+  right: 0;
+}
+.Start\(0\) {
+  left: 0;
+}
+.Pt\(200px\) {
+  padding-top: 200px;
+}
+.Pt\(5px\) {
+  padding-top: 5px;
+}
+.Pend\(10px\) {
+  padding-right: 10px;
+}
+.Pb\(200px\) {
+  padding-bottom: 200px;
+}
+.Pb\(5px\) {
+  padding-bottom: 5px;
+}
+.Pstart\(10px\) {
+  padding-left: 10px;
+}
+.Pos\(a\) {
+  position: absolute;
+}
+.Pos\(r\) {
+  position: relative;
+}
+.Td\(n\) {
+  text-decoration: none;
+}
+.Td\(u\)\:h:hover {
+  text-decoration: underline;
+}
+.Tt\(u\) {
+  text-transform: uppercase;
+}
+.W\(100px\) {
+  width: 100px;
+}
