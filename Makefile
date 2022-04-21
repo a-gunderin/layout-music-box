@@ -1,6 +1,6 @@
 install:
 	npm ci
-	npm run scss
+	npm run atomizer
 
 lint:
 	npx stylelint ./src/css/*.css
