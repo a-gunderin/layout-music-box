@@ -6,8 +6,8 @@ module.exports = {
 		'lg': '@media screen and (max-width:1240px)'
 	},
 	'custom': {
-		roboto: 'Roboto',
-		banner: 'url(../images/banner.png)',
+		roboto: 'Roboto, Verdana, sans-serif',
+		banner: '"url(../images/banner.png)"',
 		textColor: '#cacaca',
 		bgColor: '#08020d',
 	},

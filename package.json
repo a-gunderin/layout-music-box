@@ -8,8 +8,8 @@
   },
   "main": "",
   "scripts": {
-    "slint": "npx stylelint ./src/scss/*.scss",
-    "slint:fix": "npx stylelint ./src/scss/*.scss --fix",
+    "slint": "npx stylelint ./src/css/*.css",
+    "slint:fix": "npx stylelint ./src/css/*.css --fix",
     "hlint": "npx htmlhint ./src/*.html",
     "deploy": "npx surge ./src/ charming-women.surge.sh",
     "atomizer": "atomizer -c atomic-config.js -o ./src/css/atomic.css ./src/index.html ./src/artist.html",
