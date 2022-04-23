@@ -16,6 +16,9 @@
 .Bdrs\(16px\) {
   border-radius: 16px;
 }
+.Bdrs\(32px\) {
+  border-radius: 32px;
+}
 .Bdrs\(3px\) {
   border-radius: 3px;
 }
@@ -45,6 +48,9 @@
 }
 .Bgc\(darkGrey\) {
   background-color: #3c3b3d;
+}
+.Bgc\(darkOrange\) {
+  background-color: #95390c;
 }
 .Bgc\(t\) {
   background-color: transparent;
@@ -190,6 +196,9 @@
 .Mt\(0\) {
   margin-top: 0;
 }
+.Mt\(16px\) {
+  margin-top: 16px;
+}
 .Mt\(24px\) {
   margin-top: 24px;
 }
@@ -262,6 +271,9 @@
 .Maw\(273px\) {
   max-width: 273px;
 }
+.Maw\(333px\) {
+  max-width: 333px;
+}
 .Maw\(368\.6px\) {
   max-width: 368.6px;
 }
@@ -270,6 +282,9 @@
 }
 .Maw\(575px\) {
   max-width: 575px;
+}
+.Maw\(600px\) {
+  max-width: 600px;
 }
 .Mih\(100vh\) {
   min-height: 100vh;
@@ -304,6 +319,9 @@
 .Pend\(32px\) {
   padding-right: 32px;
 }
+.Pend\(40px\) {
+  padding-right: 40px;
+}
 .Pb\(100px\) {
   padding-bottom: 100px;
 }
@@ -327,6 +345,9 @@
 }
 .Pstart\(32px\) {
   padding-left: 32px;
+}
+.Pstart\(40px\) {
+  padding-left: 40px;
 }
 .Pos\(a\) {
   position: absolute;
@@ -442,8 +463,14 @@
   .Lh\(24px\)--lg {
     line-height: 24px;
   }
+  .Mt\(0\)--lg {
+    margin-top: 0;
+  }
   .Mt\(16px\)--lg {
     margin-top: 16px;
+  }
+  .Mb\(16px\)--lg {
+    margin-bottom: 16px;
   }
   .Mb\(50px\)--lg {
     margin-bottom: 50px;
