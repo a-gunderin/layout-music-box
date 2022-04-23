@@ -64,6 +64,9 @@
 .Bxz\(bb\) {
   box-sizing: border-box;
 }
+.C\(orange1\) {
+  color: #f89202;
+}
 .C\(textColor\) {
   color: #cacaca;
 }
@@ -81,6 +84,9 @@
 }
 .D\(f\) {
   display: flex;
+}
+.D\(if\) {
+  display: inline-flex;
 }
 .Ai\(c\) {
   align-items: center;
@@ -112,6 +118,9 @@
 .Fz\(12\.8px\) {
   font-size: 12.8px;
 }
+.Fz\(12px\) {
+  font-size: 12px;
+}
 .Fz\(13\.3px\) {
   font-size: 13.3px;
 }
@@ -120,6 +129,9 @@
 }
 .Fz\(24px\) {
   font-size: 24px;
+}
+.Fz\(30px\) {
+  font-size: 30px;
 }
 .Fz\(32px\) {
   font-size: 32px;
@@ -139,6 +151,9 @@
 .H\(50px\) {
   height: 50px;
 }
+.H\(53px\) {
+  height: 53px;
+}
 .H\(57px\) {
   height: 57px;
 }
@@ -154,11 +169,17 @@
 .Lh\(16px\) {
   line-height: 16px;
 }
+.Lh\(19px\) {
+  line-height: 19px;
+}
 .Lh\(24px\) {
   line-height: 24px;
 }
 .Lh\(36px\) {
   line-height: 36px;
+}
+.Lh\(45px\) {
+  line-height: 45px;
 }
 .Lh\(57px\) {
   line-height: 57px;
@@ -199,6 +220,9 @@
 .Mb\(24px\) {
   margin-bottom: 24px;
 }
+.Mb\(25px\) {
+  margin-bottom: 25px;
+}
 .Mb\(30px\) {
   margin-bottom: 30px;
 }
@@ -208,8 +232,14 @@
 .Mb\(45px\) {
   margin-bottom: 45px;
 }
+.Mb\(48px\) {
+  margin-bottom: 48px;
+}
 .Mb\(63px\) {
   margin-bottom: 63px;
+}
+.Mb\(65px\) {
+  margin-bottom: 65px;
 }
 .Mstart\(25px\) {
   margin-left: 25px;
@@ -219,6 +249,9 @@
 }
 .Maw\(1200px\) {
   max-width: 1200px;
+}
+.Maw\(19px\) {
+  max-width: 19px;
 }
 .Maw\(248px\) {
   max-width: 248px;
@@ -234,6 +267,9 @@
 }
 .Maw\(570px\) {
   max-width: 570px;
+}
+.Maw\(575px\) {
+  max-width: 575px;
 }
 .Mih\(100vh\) {
   min-height: 100vh;
@@ -265,6 +301,12 @@
 .Pend\(20px\) {
   padding-right: 20px;
 }
+.Pend\(32px\) {
+  padding-right: 32px;
+}
+.Pb\(100px\) {
+  padding-bottom: 100px;
+}
 .Pb\(200px\) {
   padding-bottom: 200px;
 }
@@ -283,6 +325,9 @@
 .Pstart\(22px\) {
   padding-left: 22px;
 }
+.Pstart\(32px\) {
+  padding-left: 32px;
+}
 .Pos\(a\) {
   position: absolute;
 }
@@ -297,6 +342,9 @@
 }
 .Td\(u\)\:h:hover {
   text-decoration: underline;
+}
+.Tt\(c\) {
+  text-transform: capitalize;
 }
 .Tt\(u\) {
   text-transform: uppercase;
@@ -326,6 +374,12 @@
   .Fw\(700\)--md {
     font-weight: 700;
   }
+  .Fz\(12\.8px\)--md {
+    font-size: 12.8px;
+  }
+  .Fz\(16px\)--md {
+    font-size: 16px;
+  }
   .Fz\(18px\)--md {
     font-size: 18px;
   }
@@ -334,6 +388,9 @@
   }
   .Lh\(150\%\)--md {
     line-height: 150%;
+  }
+  .Lh\(24px\)--md {
+    line-height: 24px;
   }
   .Lh\(27px\)--md {
     line-height: 27px;
@@ -375,6 +432,9 @@
   }
   .Ai\(c\)--lg {
     align-items: center;
+  }
+  .Or\(-1\)--lg {
+    order: -1;
   }
   .Fz\(16px\)--lg {
     font-size: 16px;

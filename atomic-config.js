@@ -22,5 +22,7 @@ module.exports = {
 		darkGrey: '#3c3b3d',
 		buttonColor1: '#34C176',
 		buttonColor2: '#2ba564',
+		orange1: '#f89202',
+		darkOrange: '#95390c',
 	},
 };
