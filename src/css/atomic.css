@@ -124,6 +124,9 @@
 .D\(if\) {
   display: inline-flex;
 }
+.As\(fs\) {
+  align-self: flex-start;
+}
 .Fld\(c\) {
   flex-direction: column;
 }
@@ -520,6 +523,9 @@
   .Mb\(18px\)--md {
     margin-bottom: 18px;
   }
+  .Mb\(24px\)--md {
+    margin-bottom: 24px;
+  }
   .Mb\(30px\)--md {
     margin-bottom: 30px;
   }
@@ -534,6 +540,9 @@
   }
   .Maw\(n\)--md {
     max-width: none;
+  }
+  .Pt\(225px\)--md {
+    padding-top: 225px;
   }
   .Pt\(250px\)--md {
     padding-top: 250px;
