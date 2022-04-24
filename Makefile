@@ -4,8 +4,8 @@ install:
 	npm run atomizer
 
 lint:
-	npx stylelint ./src/css/*.css
-	npx htmlhint ./src/*.html
+	npm run slint
+	npm run hlint
 
 deploy:
-	npx surge ./src/
+	npm run deploy
