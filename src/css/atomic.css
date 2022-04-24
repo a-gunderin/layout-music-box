@@ -13,6 +13,9 @@
 .Bdw\(1px\) {
   border-width: 1px;
 }
+.Bdbw\(0\) {
+  border-bottom-width: 0;
+}
 .Bdrs\(16px\) {
   border-radius: 16px;
 }
@@ -415,6 +418,17 @@
 .W\(100px\) {
   width: 100px;
 }
+@media (max-width:699px) {
+  .Fld\(c\)--sm {
+    flex-direction: column;
+  }
+  .Mend\(0\)--sm {
+    margin-right: 0;
+  }
+  .Mb\(16px\)--sm {
+    margin-bottom: 16px;
+  }
+}
 @media (max-width:999px) {
   .D\(f\)--md {
     display: flex;
@@ -463,6 +477,9 @@
   }
   .Mb\(18px\)--md {
     margin-bottom: 18px;
+  }
+  .Mb\(30px\)--md {
+    margin-bottom: 30px;
   }
   .Mb\(3px\)--md {
     margin-bottom: 3px;
