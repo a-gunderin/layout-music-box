@@ -31,11 +31,20 @@
 .Bdrs\(5px\) {
   border-radius: 5px;
 }
-.Bgi\(banner\) {
-  background-image: url("../images/banner.png");
-}
 .Bgi\(gradient\) {
   background-image: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+.Bgi\(homeBanner\) {
+  background-image: url("../images/banner.png");
+}
+.Bgi\(iconHeart\) {
+  background-image: url("../images/svg/heart.svg");
+}
+.Bgi\(iconPlay\) {
+  background-image: url("../images/svg/play-button.svg");
+}
+.Bgi\(mortenHarket\) {
+  background-image: url("../images/Morten Harket.png");
 }
 .Bgi\(subscribe_1\) {
   background-image: url("../images/subscribe_1.png");
@@ -48,6 +57,9 @@
 }
 .Bgc\(bgColor\) {
   background-color: #08020d;
+}
+.Bgc\(blue1\) {
+  background-color: #5328a1;
 }
 .Bgc\(buttonColor1\) {
   background-color: #34C176;
@@ -64,11 +76,20 @@
 .Bgc\(buttonColor2\)\:h:hover {
   background-color: #2ba564;
 }
+.Bgz\(20px\) {
+  background-size: 20px;
+}
 .Bgz\(cv\) {
   background-size: cover;
 }
 .Bgp\(c\) {
   background-position: center;
+}
+.Bgpx\(31px\) {
+  background-position-x: 31px;
+}
+.Bgpy\(c\) {
+  background-position-y: 50%;
 }
 .Bgr\(nr\) {
   background-repeat: no-repeat;
@@ -178,6 +199,9 @@
 .H\(57px\) {
   height: 57px;
 }
+.H\(62px\) {
+  height: 62px;
+}
 .H\(66px\) {
   height: 66px;
 }
@@ -240,6 +264,9 @@
 }
 .Mb\(15px\) {
   margin-bottom: 15px;
+}
+.Mb\(16px\) {
+  margin-bottom: 16px;
 }
 .Mb\(17px\) {
   margin-bottom: 17px;
@@ -313,6 +340,9 @@
 .Mih\(100vh\) {
   min-height: 100vh;
 }
+.Miw\(200px\) {
+  min-width: 200px;
+}
 .O\(0\) {
   outline: 0;
 }
@@ -330,6 +360,9 @@
 }
 .Pt\(200px\) {
   padding-top: 200px;
+}
+.Pt\(250px\) {
+  padding-top: 250px;
 }
 .Pt\(40px\) {
   padding-top: 40px;
@@ -358,6 +391,9 @@
 .Pb\(200px\) {
   padding-bottom: 200px;
 }
+.Pb\(220px\) {
+  padding-bottom: 220px;
+}
 .Pb\(49px\) {
   padding-bottom: 49px;
 }
@@ -385,6 +421,9 @@
 .Pstart\(40px\) {
   padding-left: 40px;
 }
+.Pstart\(67px\) {
+  padding-left: 67px;
+}
 .Pos\(a\) {
   position: absolute;
 }
@@ -393,6 +432,9 @@
 }
 .Ta\(c\) {
   text-align: center;
+}
+.Ta\(start\) {
+  text-align: left;
 }
 .Td\(n\) {
   text-decoration: none;

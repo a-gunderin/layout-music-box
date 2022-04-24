@@ -11,11 +11,14 @@ module.exports = {
 		btnFont: 'Arial, Verdana, sans-serif',
 
 		// BACKGROUND IMAGES & GRADIENTS
-		banner: 'url("../images/banner.png")',
+		homeBanner: 'url("../images/banner.png")',
+		mortenHarket: 'url("../images/Morten Harket.png")',
 		subscribe_1: 'url("../images/subscribe_1.png")',
 		subscribe_2: 'url("../images/subscribe_2.png")',
 		subscribe_3: 'url("../images/subscribe_3.png")',
 		gradient: 'linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%)',
+		iconPlay: 'url("../images/svg/play-button.svg")',
+		iconHeart: 'url("../images/svg/heart.svg")',
 
 		// COLORS
 		textColor: '#cacaca',
@@ -26,5 +29,6 @@ module.exports = {
 		buttonColor2: '#2ba564',
 		orange1: '#f89202',
 		darkOrange: '#95390c',
+		blue1: '#5328a1',
 	},
 };
