@@ -12,7 +12,7 @@ module.exports = {
 
 		// BACKGROUND IMAGES & GRADIENTS
 		homeBanner: 'url("../images/banner.png")',
-		mortenHarket: 'url("../images/Morten Harket.png")',
+		mortenHarket: 'url("../images/Morten_Harket.png")',
 		subscribe_1: 'url("../images/subscribe_1.png")',
 		subscribe_2: 'url("../images/subscribe_2.png")',
 		subscribe_3: 'url("../images/subscribe_3.png")',
