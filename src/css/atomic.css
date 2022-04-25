@@ -508,6 +508,9 @@
   .D\(f\)--md {
     display: flex;
   }
+  .As\(fs\)--md {
+    align-self: flex-start;
+  }
   .Fld\(c\)--md {
     flex-direction: column;
   }
@@ -541,8 +544,8 @@
   .Lh\(45px\)--md {
     line-height: 45px;
   }
-  .Mt\(58px\)--md {
-    margin-top: 58px;
+  .Mt\(48px\)--md {
+    margin-top: 48px;
   }
   .Mend\(0\)--md {
     margin-right: 0;
