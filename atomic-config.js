@@ -30,5 +30,8 @@ module.exports = {
 		orange1: '#f89202',
 		darkOrange: '#95390c',
 		blue1: '#5328a1',
+
+		// OTHER VALUES
+		trackWidth: 'calc(50% - 50px)',
 	},
 };
