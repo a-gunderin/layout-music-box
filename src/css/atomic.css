@@ -205,9 +205,6 @@
 .H\(62px\) {
   height: 62px;
 }
-.H\(66px\) {
-  height: 66px;
-}
 .List\(n\) {
   list-style-type: none;
 }
@@ -346,8 +343,8 @@
 .Maw\(333px\) {
   max-width: 333px;
 }
-.Maw\(368\.6px\) {
-  max-width: 368.6px;
+.Maw\(366\.6px\) {
+  max-width: 366.6px;
 }
 .Maw\(55px\) {
   max-width: 55px;
@@ -382,6 +379,9 @@
 .Pt\(200px\) {
   padding-top: 200px;
 }
+.Pt\(20px\) {
+  padding-top: 20px;
+}
 .Pt\(250px\) {
   padding-top: 250px;
 }
@@ -400,6 +400,9 @@
 .Pend\(20px\) {
   padding-right: 20px;
 }
+.Pend\(30px\) {
+  padding-right: 30px;
+}
 .Pend\(32px\) {
   padding-right: 32px;
 }
@@ -411,6 +414,9 @@
 }
 .Pb\(200px\) {
   padding-bottom: 200px;
+}
+.Pb\(20px\) {
+  padding-bottom: 20px;
 }
 .Pb\(220px\) {
   padding-bottom: 220px;
@@ -438,6 +444,9 @@
 }
 .Pstart\(22px\) {
   padding-left: 22px;
+}
+.Pstart\(30px\) {
+  padding-left: 30px;
 }
 .Pstart\(32px\) {
   padding-left: 32px;
