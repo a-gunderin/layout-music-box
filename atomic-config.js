@@ -32,6 +32,6 @@ module.exports = {
 		blue1: '#5328a1',
 
 		// OTHER VALUES
-		trackWidth: 'calc(50% - 50px)',
+		trackWidth: 'calc(50% - 25px)',
 	},
 };

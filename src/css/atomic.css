@@ -298,6 +298,9 @@
 .Mb\(40px\) {
   margin-bottom: 40px;
 }
+.Mb\(44px\) {
+  margin-bottom: 44px;
+}
 .Mb\(48px\) {
   margin-bottom: 48px;
 }
@@ -321,6 +324,9 @@
 }
 .Mstart\(a\) {
   margin-left: auto;
+}
+.Maw\(1151px\) {
+  max-width: 1151px;
 }
 .Maw\(1200px\) {
   max-width: 1200px;
@@ -488,7 +494,7 @@
   width: 20px;
 }
 .W\(trackWidth\) {
-  width: calc(50% - 50px);
+  width: calc(50% - 25px);
 }
 .Z\(1\) {
   z-index: 1;
