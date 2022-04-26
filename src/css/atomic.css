@@ -37,12 +37,6 @@
 .Bgi\(homeBanner\) {
   background-image: url("../images/banner.png");
 }
-.Bgi\(iconHeart\) {
-  background-image: url("../images/svg/heart.svg");
-}
-.Bgi\(iconPlay\) {
-  background-image: url("../images/svg/play-button.svg");
-}
 .Bgi\(mortenHarket\) {
   background-image: url("../images/Morten_Harket.png");
 }
@@ -76,20 +70,11 @@
 .Bgc\(buttonColor2\)\:h:hover {
   background-color: #2ba564;
 }
-.Bgz\(20px\) {
-  background-size: 20px;
-}
 .Bgz\(cv\) {
   background-size: cover;
 }
 .Bgp\(c\) {
   background-position: center;
-}
-.Bgpx\(31px\) {
-  background-position-x: 31px;
-}
-.Bgpy\(c\) {
-  background-position-y: 50%;
 }
 .Bgr\(nr\) {
   background-repeat: no-repeat;
@@ -114,6 +99,12 @@
 }
 .C\(white\)\:h:hover {
   color: white;
+}
+.Cnt\(iconHeart\)\:\:b::before {
+  content: url("../images/svg/heart.svg");
+}
+.Cnt\(iconPlay\)\:\:b::before {
+  content: url("../images/svg/play-button.svg");
 }
 .Cur\(p\) {
   cursor: pointer;
@@ -190,6 +181,9 @@
 .Fz\(64px\) {
   font-size: 64px;
 }
+.H\(20px\)\:\:b::before {
+  height: 20px;
+}
 .H\(25px\) {
   height: 25px;
 }
@@ -198,9 +192,6 @@
 }
 .H\(57px\) {
   height: 57px;
-}
-.H\(62px\) {
-  height: 62px;
 }
 .List\(n\) {
   list-style-type: none;
@@ -254,6 +245,9 @@
   margin-right: 15px;
 }
 .Mend\(16px\) {
+  margin-right: 16px;
+}
+.Mend\(16px\)\:\:b::before {
   margin-right: 16px;
 }
 .Mend\(24px\) {
@@ -391,9 +385,6 @@
 .Pt\(20px\) {
   padding-top: 20px;
 }
-.Pt\(250px\) {
-  padding-top: 250px;
-}
 .Pt\(40px\) {
   padding-top: 40px;
 }
@@ -427,9 +418,6 @@
 .Pb\(20px\) {
   padding-bottom: 20px;
 }
-.Pb\(220px\) {
-  padding-bottom: 220px;
-}
 .Pb\(47px\) {
   padding-bottom: 47px;
 }
@@ -456,9 +444,6 @@
 }
 .Pstart\(40px\) {
   padding-left: 40px;
-}
-.Pstart\(67px\) {
-  padding-left: 67px;
 }
 .Pos\(a\) {
   position: absolute;
@@ -495,6 +480,9 @@
 }
 .W\(100px\) {
   width: 100px;
+}
+.W\(20px\)\:\:b::before {
+  width: 20px;
 }
 .W\(trackWidth\) {
   width: calc(50% - 50px);
@@ -594,9 +582,6 @@
   }
   .Maw\(n\)--md {
     max-width: none;
-  }
-  .Pt\(225px\)--md {
-    padding-top: 225px;
   }
   .W\(a\)--md {
     width: auto;
