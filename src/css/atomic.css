@@ -547,6 +547,9 @@
   .Lh\(45px\)--md {
     line-height: 45px;
   }
+  .Mt\(25px\)--md {
+    margin-top: 25px;
+  }
   .Mt\(48px\)--md {
     margin-top: 48px;
   }
