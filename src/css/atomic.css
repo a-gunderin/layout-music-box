@@ -376,6 +376,9 @@
 .Pt\(100px\) {
   padding-top: 100px;
 }
+.Pt\(16px\) {
+  padding-top: 16px;
+}
 .Pt\(200px\) {
   padding-top: 200px;
 }
@@ -411,6 +414,9 @@
 }
 .Pb\(100px\) {
   padding-bottom: 100px;
+}
+.Pb\(16px\) {
+  padding-bottom: 16px;
 }
 .Pb\(200px\) {
   padding-bottom: 200px;
