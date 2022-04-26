@@ -118,6 +118,9 @@
 .Cur\(p\) {
   cursor: pointer;
 }
+.D\(b\) {
+  display: block;
+}
 .D\(f\) {
   display: flex;
 }
@@ -196,9 +199,6 @@
 .H\(50px\) {
   height: 50px;
 }
-.H\(53px\) {
-  height: 53px;
-}
 .H\(57px\) {
   height: 57px;
 }
@@ -243,6 +243,9 @@
 }
 .Mt\(16px\) {
   margin-top: 16px;
+}
+.Mt\(19px\) {
+  margin-top: 19px;
 }
 .Mt\(24px\) {
   margin-top: 24px;
@@ -312,6 +315,9 @@
 }
 .Mstart\(-25px\) {
   margin-left: -25px;
+}
+.Mstart\(20px\) {
+  margin-left: 20px;
 }
 .Mstart\(25px\) {
   margin-left: 25px;
@@ -620,5 +626,8 @@
   }
   .Mb\(50px\)--lg {
     margin-bottom: 50px;
+  }
+  .Mstart\(0\)--lg {
+    margin-left: 0;
   }
 }
