@@ -562,6 +562,9 @@
   .Mend\(0\)--md {
     margin-right: 0;
   }
+  .Mend\(a\)--md {
+    margin-right: auto;
+  }
   .Mb\(16px\)--md {
     margin-bottom: 16px;
   }
