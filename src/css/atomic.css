@@ -286,6 +286,9 @@
 .Mb\(200px\) {
   margin-bottom: 200px;
 }
+.Mb\(20px\) {
+  margin-bottom: 20px;
+}
 .Mb\(24px\) {
   margin-bottom: 24px;
 }
@@ -414,9 +417,6 @@
 }
 .Pend\(40px\) {
   padding-right: 40px;
-}
-.Pb\(100px\) {
-  padding-bottom: 100px;
 }
 .Pb\(16px\) {
   padding-bottom: 16px;
