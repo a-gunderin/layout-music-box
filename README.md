@@ -1,7 +1,7 @@
 # Layout designer project: Music Box
 
 ### Linter status:
-[![Actions Status](https://github.com/a-gunderin/layout-designer-project-lvl2/workflows/htmlcss/badge.svg)](https://github.com/a-gunderin/layout-designer-project-lvl2/actions)
+[![Actions Status](https://github.com/a-gunderin/layout-designer-project-lvl2/workflows/linters-check/badge.svg)](https://github.com/a-gunderin/layout-designer-project-lvl2/actions)
 
 Live: [Home page](http://charming-women.surge.sh)
 
