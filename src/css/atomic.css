@@ -283,6 +283,9 @@
 .Mb\(18px\) {
   margin-bottom: 18px;
 }
+.Mb\(19px\) {
+  margin-bottom: 19px;
+}
 .Mb\(200px\) {
   margin-bottom: 200px;
 }
@@ -432,6 +435,9 @@
 }
 .Pb\(5px\) {
   padding-bottom: 5px;
+}
+.Pb\(73px\) {
+  padding-bottom: 73px;
 }
 .Pb\(75px\) {
   padding-bottom: 75px;
