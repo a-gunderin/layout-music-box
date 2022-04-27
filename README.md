@@ -18,5 +18,5 @@ $ make install
 ## Run linters
 
 ```sh
-make lint
+$ make lint
 ```
