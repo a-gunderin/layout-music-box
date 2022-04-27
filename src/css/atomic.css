@@ -190,6 +190,9 @@
 .Fz\(64px\) {
   font-size: 64px;
 }
+.Fs\(i\) {
+  font-style: italic;
+}
 .H\(25px\) {
   height: 25px;
 }
